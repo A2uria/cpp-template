@@ -16,8 +16,7 @@
                 "-gdwarf",
                 "${file}",
                 "-link",
-                "-debug:none",
-                "-debug:dwarf",
+                "-debug:none,dwarf",
                 "-opt:ref",
                 "-out:${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
