@@ -17,7 +17,7 @@
                 "${file}",
                 "-link",
                 "-debug:none,dwarf",
-                "-opt:ref",
+                "-opt:ref,noicf",
                 "-out:${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
